@@ -1,0 +1,138 @@
+{
+ "comments": [
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDDE",
+   "manual": true,
+   "text": "string length"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDDF",
+   "manual": true,
+   "text": "pointer to string start"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE03",
+   "manual": true,
+   "text": "get eax back"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDE3",
+   "manual": true,
+   "text": "store current state"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE08",
+   "manual": true,
+   "text": "sub 30 (30 - is ASCII offset for numbers)"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE05",
+   "manual": true,
+   "text": "get next part of string"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDED",
+   "manual": true,
+   "text": "counter"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDF2",
+   "manual": true,
+   "text": "value"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDF8",
+   "manual": true,
+   "text": "multiply value to A (10 in dec)"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE0B",
+   "manual": true,
+   "text": "add to value"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE0D",
+   "manual": true,
+   "text": "inc counter"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE0E",
+   "manual": true,
+   "text": "get next letter"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE11",
+   "manual": true,
+   "text": "multipy by 600 (258 in hex)"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE1A",
+   "manual": true,
+   "text": "set our value to no-rush-timer"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE22",
+   "manual": true,
+   "text": "return state back"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FE31",
+   "manual": true,
+   "text": "get back to main code"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x84FDD8",
+   "manual": true,
+   "text": "Hook "
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x305E8D",
+   "manual": true,
+   "text": "move to the end of switch (we have timer already from hook)"
+  },
+  {
+   "module": "supremecommander_final.exe",
+   "address": "0x305E51",
+   "manual": true,
+   "text": "Hook next part of code"
+  }
+ ],
+ "breakpoints": [
+  {
+   "address": "0x84FDD8",
+   "enabled": true,
+   "oldbytes": "0x9090",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "supremecommander_final.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  }
+ ],
+ "hashAlgorithm": "murmurhash",
+ "hash": "0x65DEE909"
+}
