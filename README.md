@@ -53,9 +53,9 @@ When open **lobbyOptions.lua** with your favorite text editor and change followi
 }
 ````
 
-You have to add your values into values array with the same semantic as other options. 
+You have to add your options into values array with the same semantic as other. 
 
-For example, to get 30 mins just add this code at after the last element
+For example, to get 30 mins just add this code after the last element
 ````lua
 {
      text = "<LOC lobui_0324>30",
