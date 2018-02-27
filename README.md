@@ -8,7 +8,7 @@ This is not unofficial patch for SupCom FA which fixed some bugs in engine.
 - [ ] Fix tech 4 factory selection
 
 
-#### How to use 
+### How to use 
 
 If you just want to fix your game, download **supremecommander.fa-patch.exe**, put it into **bin** directory of your game and then run.
 
@@ -16,7 +16,7 @@ Use [x64dbg tool](https://x64dbg.com/#start) to debug exe file and use **databas
 
 **SupremeCommander FA.dUP2** is a project to [diablo2oo2](http://download.cnet.com/windows/diablo2oo2/3260-2094_4-10181657-1.html) and allows you to create your own patch file.
 
-#### In order to have custom no-rush timer options you have to:
+### In order to have custom no-rush timer options you have to:
 Open **gamedata\lua.scd** by any archiver such WinRar on 7zip and navigate to **lua\ui\lobby**  
 When open **lobbyOptions.lua** with your favorite text editor and change following code:
 
